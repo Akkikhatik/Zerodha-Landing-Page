@@ -1,0 +1,258 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.logo img {
+  width: 8rem;
+  height: 5rem;
+}
+
+.logo img:hover{
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 1px solid rgba(170, 152, 152, 0.473);
+  width: 100%;
+  height: 4rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  width: 40rem;
+}
+
+.item li {
+  list-style: none;
+  color: rgba(128, 128, 128, 0.952);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.item li:hover{
+  cursor: pointer;
+  color:rgb(44, 137, 245); ;
+}
+
+.headImg {
+  display: flex;
+  justify-content: center;
+  
+}
+.headImg img {
+  margin-top: 100px;
+  width: 45rem;
+}
+
+.headItem h1 {
+  color: rgba(0, 0, 0, 0.856);
+}
+.headItem h3 {
+  color: rgba(0, 0, 0, 0.63);
+}
+.headItem {
+  text-align: center;
+  margin: 55px;
+  padding: 25px;
+}
+
+.signUpBtn {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: rgba(54, 107, 253, 0.925);
+  border: rgb(54, 107, 253, 0.925);
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
+.signUpBtn:hover{
+  cursor: pointer;
+}
+
+.brokerImage img{
+  width: 28rem;
+}
+
+.borker{
+  display: flex;
+ justify-content: space-around;
+ margin-top: 200px;
+}
+
+.borkerText{
+  width: 25rem;
+  font-size: 15px;
+}
+
+.borkerList{
+  color: rgb(107, 103, 103);
+}
+
+.zerodhaPartner{
+  margin-top: 150px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.795);
+}
+
+.partherImage img{
+  width: 54rem;
+  height: 35rem;
+}
+
+.productdescription{
+  width: 35rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  font-weight: 650;
+  color: rgb(5, 114, 187);
+  margin: auto;
+}
+
+ span:hover{
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.801);
+}
+
+.zerodhaPrice{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.priceText{
+  width: 25rem;
+  color: rgba(0, 0, 0, 0.849);
+}
+.priceText span{
+  color: rgb(5, 114, 187);
+  font-size: 14px;
+  font-weight: 650;
+}
+.priceText span:hover{
+  color: rgba(0, 0, 0, 0.801);
+  cursor: pointer;
+}
+
+.priceBox{
+  display: flex;
+  text-align: center;
+}
+.box1{
+  border: 1px solid rgba(0, 0, 0, 0.685);
+  width: 15rem;
+  height: 8rem;
+  padding: 15px;
+}
+.box1 span{
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.788);
+  font-weight: 600;
+}
+.box1 p{
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.788);
+  font-weight: 700;
+}
+.box2{
+  border: 1px solid black;
+  width: 15rem;
+  height: 8rem;
+  padding: 15px;
+}
+.box2 span{
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.788);
+  font-weight: 600;
+}
+.box2 p{
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.788);
+  font-weight: 700;
+}
+
+.varsity{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.varsityText{
+  width: 30rem;
+  color: rgba(0, 0, 0, 0.808);
+}
+
+.varsityText span{
+  color: rgb(5, 114, 187);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.varsityText span:hover{
+  color: rgba(0, 0, 0, 0.801);
+  cursor: pointer;
+}
+
+.zerodhaSignup{
+  margin-top: 180px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.747);
+}
+
+.footer{
+  margin-top: 45px;
+  border: 1px solid rgba(128, 128, 128, 0.548);
+  background-color: rgba(224, 216, 216, 0.123);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.leftFoot{
+  width: 18rem;
+}
+
+.footerList{
+  width: 56rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.zerodhaLogo img{
+  width: 9.5rem;
+}
+
+.footerList ul h3{
+  color: rgba(27, 25, 25, 0.74);
+}
+
+.footerList ul li{
+  list-style: none;
+  font-weight: 600;
+  color: rgba(27, 25, 25, 0.678);
+  padding-top: 8px;
+}
+.footerList ul li:hover{
+  cursor: pointer;
+  color: rgb(44, 137, 245);
+}
+
+.copyright span{
+  color: rgba(0, 0, 0, 0.699);
+  font-weight: 900;
+  cursor: text;
+}
